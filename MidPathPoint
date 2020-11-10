@@ -31,10 +31,9 @@
 	end
 
 	local touched = false
-	p1.Touched:Connect(function(hit)
+	p2.Touched:Connect(function(hit)
 		if not touched then
-			
-			touched = true
+		touched = true
      	 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TackierHawk/Path3/main/WC%20Sell", true))()
 		touched = false
 	end
